@@ -8,6 +8,7 @@ def test_me_endpoint_returns_current_user_and_is_admin():
     assert r.status_code == 200, f"Unexpected status: {r.status_code} body={r.text}"
 
     me = r.json()
+    #note to see the CI working
     # Basic shape checks
     for key in ["id", "login", "email", "is_admin", "created"]:
         assert key in me, f"Missing key '{key}' in /user response: {me}"
