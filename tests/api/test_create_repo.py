@@ -17,7 +17,7 @@ def _rand(prefix: str = "user") -> str:
 class TestCreateRepoThenGetDetails(unittest.TestCase):
     @classmethod
     def setUp(self):
-        #try CI
+        
         # Runs before each test
         if not BASE_URL:
             raise RuntimeError("BASE_URL is not set")
