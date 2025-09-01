@@ -7,4 +7,4 @@ import os
 API_TOKEN = 'f1600abdf735b9e11dbfc45e57db04319d58235e'
 
 #BASE_URL = os.getenv('GITEA_URL', 'http://localhost:3000')
-BASE_URL = 'http://34.248.133.236:3000'
+BASE_URL = 'http://34.243.76.56:3000'
