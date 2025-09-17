@@ -120,4 +120,4 @@ prime/
 /AGENT.md
 /CLAUDE.md
 /llms.txt
-
+*.pyc*
